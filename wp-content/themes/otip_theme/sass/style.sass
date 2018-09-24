@@ -1,0 +1,186 @@
+/*
+  Theme Name: Otip_Theme 111
+  Theme URI: https://dds.by/
+  Author: Dinosaur Design Studio /Vitebsk/
+  Author URI: http://dds.by/
+  Description: Тема для сайта кафедры химии УО "ВГТУ"
+  Version: 2.0.0
+  License: GNU General Public License v2 or later
+  License URI: LICENSE
+  Text Domain: otip_theme
+    Tags:
+
+  This theme, like WordPress, is licensed under the GPL.
+  Use it to make something cool, have fun, and share what you've learned with others.
+
+  Otip_Theme is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+  Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+  Normalizing styles have been helped along thanks to the fine work of
+  Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+  */
+
+@import "colors"
+@import "fonts"
+@import "mixins"
+@import "buttons"
+@import "normolize"
+@import "topper"
+@import "menu"
+@import "carousel"
+@import "slick-slider"
+@import "mainAbout"
+@import "contacts"
+@import "staff/Staff"
+@import "map"
+
+.subjects
+  margin: 20px
+
+.subjects_list
+  margin: 50px 0
+  border-bottom: 1px solid $mint
+
+.subjects_list a
+
+  color: $mint
+  text-decoration: none
+  color: #000
+
+.subjects_list a h2
+  color: $mint
+
+.subjects_list a:hover
+  text-decoration: none
+  color: #000
+
+.subject_button
+  text-align: right
+  margin-bottom: 15px
+
+.subjects_button
+  padding: 7px
+  background: none
+  border: 1px solid $mint
+    border-radius: 5px
+
+.subjects_button:hover
+  color: #ffffff
+  background: $coral
+  border-color: $coral
+
+.discipline a
+  color: $mint
+  margin-bottom: 20px
+  padding-bottom: 20px
+
+.discipline p
+  text-align: justify
+
+.discipline div
+  padding: 3px 0 13px 0
+  margin: 0
+
+.colorh3
+  color: $mint
+
+.literatura
+  display: block
+
+.literatura a
+  color: $mint
+
+/*
+                                Galery
+ */
+.galery_list
+  margin: 50px 0
+  border-bottom: 3px solid $coral
+
+.galery_list a
+
+  color: $mint
+  text-decoration: none
+  color: #000
+
+.galery_list a h2
+  color: $mint
+
+.galery_list a:hover
+  text-decoration: none
+  color: #000
+
+//news
+article.post
+  .rss_details
+    display: none !important
+/*
+                                        About
+ */
+.aboutimg
+  margin: 20px auto
+
+/*
+  paggination
+  */
+
+/*
+                                         Footer
+ */
+
+.footer
+
+  background-color: $mint
+  border-top: solid 2px $coral
+  padding: 10px
+
+.footbrand
+  margin: 0 auto
+  color: #ffffff
+  text-align: center
+  justify-content: center
+
+#footbrand
+  margin: 0 auto
+  color: #ffffff
+  text-align: center
+
+.footbrand p
+  text-align: left
+  color: #f2f2f2
+  margin-left: 30px
+
+img.logo
+  display: block
+  position: relative
+  height: 40px
+  margin-top: 5px
+  margin-bottom: 5px
+  margin-left: 50px
+
+.developed > span
+  color: #bec2c5
+
+.developed a
+  color: #f8fffd
+
+
+#true_loadmore
+  background-color: #ddd /* сервый фон */
+  border-radius: 2px /* закругление углов */
+  display: block /* блочный элемент, на случай, если захотите использовать <a> */
+  text-align: center /* выравнивание текста по центру */
+  font-size: 14px
+  font-size: 0.875rem /* размер шрифта */
+  font-weight: 800 /* начертание */
+  letter-spacing: 1px /* межбуквенный интервал */
+  cursor: pointer /* курсор мыши при наведении такой же, как при наведении на ссылку */
+  text-transform: uppercase
+  padding: 10px 0 /* внутренние отступы сверху и снизу у кнопки */
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out /* CSS-анимация*/
+
+#true_loadmore:hover
+  background-color: #767676
+  color: #fff
+
+@import "news"
